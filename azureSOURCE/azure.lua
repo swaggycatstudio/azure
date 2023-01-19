@@ -3715,7 +3715,7 @@ local target_aim = {
 
 local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
 local Notify = NotifyLibrary.Notify
-local Window = library:CreateWindow("Azure Rewrite | Still betaa", Vector2.new(492, 592), Enum.KeyCode.RightShift) 
+local Window = library:CreateWindow("Azure", Vector2.new(492, 592), Enum.KeyCode.RightControl) 
 
 local AimingTab = Window:CreateTab("Main")
 local MiscTab = Window:CreateTab("Misc")
